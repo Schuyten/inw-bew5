@@ -1,3 +1,10 @@
+---
+layout: default
+title: Introduction to Python
+---
+
+# Introduction to Python
+
 Welkom bij de cursus basisprincipes van programmeren in Python!
 
 #### Waarom Python?
