@@ -25,3 +25,10 @@ Na het voltooien van deze cursus zou je in staat moeten zijn om:
 - door te gaan met het leren van Python met andere cursussen die complexer materiaal aanbieden.
 
 Veel succes!
+
+```python
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Alice")
+```
