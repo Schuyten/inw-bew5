@@ -11,6 +11,6 @@ Welkom bij de cursus informaticawetenschappen!
 
 {% for page in site.pages %}
   {% if page.path contains 'chapters/' %}
-    - [{{ page.title }}]({{ page.url | relative_url }})
+    - [{{ page.title }}]
   {% endif %}
 {% endfor %}
