@@ -19,18 +19,20 @@
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-      </header>
-      <section>
-        <nav>
+
+        <nav class="chapter-nav">
+          <h2>Chapters</h2>
+          <ul>
           {% for p in site.pages %}
             {% if p.path contains 'chapters/' %}
-              <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+              <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
+          </ul>
         </nav>
-
+      </header>
+      <section>
       {{ content }}
-
       </section>
       <footer>
         {% if site.github.is_project_page %}
