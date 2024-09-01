@@ -3,9 +3,9 @@ layout: default
 title: Home
 ---
 
-# Python Programming Basics
+# Python Basics
 
-Welcome to the course on Python programming basics!
+Welkom bij de cursus informaticawetenschappen!
 
 ## Chapters
 

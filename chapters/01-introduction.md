@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Introduction to Python
+title: Introductie
 ---
 
-# Introduction to Python
+# Introductie
 
 Welkom bij de cursus basisprincipes van programmeren in Python!
 
