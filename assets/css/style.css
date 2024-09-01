@@ -5,23 +5,25 @@
 
 
 .wrapper {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 header {
-  width: 270px;
+  width: 300px;
   float: none;
   position: static;
   -webkit-font-smoothing: subpixel-antialiased;
+  padding-right: 30px;
 }
 
 section {
-  width: calc(100% - 270px);
+  width: calc(100% - 300px);
   float: none;
   padding-bottom: 50px;
+  padding-left: 30px;
 }
 
 .chapter-nav {
@@ -38,32 +40,28 @@ section {
 }
 
 @media print, screen and (max-width: 960px) {
-  div.wrapper {
-    width: auto;
-    margin: 0;
+  .wrapper {
+    flex-direction: column;
   }
 
-  header, section, footer {
-    float: none;
-    position: static;
-    width: auto;
+  header, section {
+    width: 100%;
+    padding: 0;
   }
 
   header {
-    padding-right: 320px;
+    padding-right: 0;
   }
 
   section {
-    border: 1px solid #e5e5e5;
-    border-width: 1px 0;
-    padding: 20px 0;
-    margin: 0 0 20px;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 20px;
   }
 }
 
 @media print, screen and (max-width: 720px) {
-  header {
-    padding: 0;
+  body {
+    word-wrap: break-word;
   }
 }
 
