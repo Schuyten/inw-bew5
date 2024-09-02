@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introductie
+title: Installatie
 ---
 
 # Installatie: Python en VS Code
@@ -44,7 +44,7 @@ Laten we een eenvoudig Python-programma uitvoeren om te bevestigen dat alles cor
 
 ```python
 print("Hello, World!")
-```python
+```
 
 Als alles goed is gegaan, zou je de volgende output moeten zien:
 
