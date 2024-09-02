@@ -57,7 +57,7 @@ Om de Python-interpreter te verlaten, typ `exit()` en druk op Enter.
 
 ## Visual Studio Code (VS Code) installeren
 
-Visual Studio Code is een krachtige, lichtgewicht code-editor die uitstekend geschikt is voor Python-ontwikkeling en voor vele andere programmeertalen. Zo kan je het installeren:
+Visual Studio Code is een krachtige, lichtgewicht code-editor die uitstekend geschikt is voor Python-ontwikkeling en voor vele andere programmeertalen. Zo kan je VS Code installeren:
 
 1. Ga naar de officiële VS Code-website: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 2. Klik op de "Download for Windows" knop.
