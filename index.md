@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Python Basics
+# Informaticawetenschappen BEW5
 
 Welkom bij de cursus informaticawetenschappen!
 

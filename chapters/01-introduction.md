@@ -3,49 +3,62 @@ layout: default
 title: Introductie
 ---
 
-# Introductie: Informaticawetenschappen en Python
+# Introductie: Relationele Databanken en Big Data
 
-Welkom bij de cursus Informaticawetenschappen! In deze cursus leer je de basisprincipes van programmeren met Python, en ontwikkel je vaardigheden om zelf ontworpen oplossingen voor concrete problemen te programmeren.
+Welkom bij de cursus Relationele Databanken en Big Data! In deze cursus leer je de fundamentele concepten van gegevensopslag- en analyse, beginnend met eenvoudige spreadsheets en eindigend met complexe big data-systemen.
 
-## Waarom Python?
+## Waarom Relationele Databanken en Big Data?
 
-Python is een van de meest populaire programmeertalen ter wereld. Het wordt veel gebruikt in data science, machine learning, AI, en softwareontwikkeling. Python is een uitstekende keuze voor deze cursus omdat:
+In de huidige digitale wereld is het vermogen om grote hoeveelheden gegevens efficiënt op te slaan, te beheren en te analyseren van cruciaal belang. Deze vaardigheden zijn essentieel in zowat alle sectoren, waaronder:
 
-- Het relatief gemakkelijk is om te leren en te lezen.
-- Het veelzijdig is en gebruikt kan worden voor een breed scala aan toepassingen.
-- Het een grote community heeft met uitgebreide documentatie en bibliotheken.
+- Bedrijfsleven en finance
+- Gezondheidszorg en medisch onderzoek
+- Wetenschappelijk onderzoek
+- Marketing en klantenanalyse
+- Overheid en beleidsvorming
 
 ## Cursusdoelen
 
 Na het voltooien van deze cursus zou je in staat moeten zijn om:
 
-1. Een systematische aanpak te hanteren bij het ontwerpen en implementeren van programma's.
-2. Python als gestructureerde programmeertaal toe te passen bij het ontwerpen van oplossingen.
-3. Algoritmen te ontwerpen en implementeren met verschillende datastructuren.
-4. Algoritmische technieken toe te passen bij het programmeren.
-5. Oplossingen te ontwerpen die externe gegevens kunnen in- en uitvoeren.
-6. Concrete wiskundige problemen op te lossen met behulp van numerieke methodes.
+1. De structuur en werking van relationele databanken uit te leggen en te implementeren.
+2. Een relationele databank te ontwerpen, implementeren en uitbreiden.
+3. SQL te gebruiken om gegevens in een relationele databank te bevragen en te wijzigen.
+4. De kenmerken van big data te begrijpen en het belang ervan voor onderzoek in te schatten.
+5. Een datawarehouse samen te stellen en te bevragen op basis van een onderzoeksvraag.
+6. Visualisaties te maken met een business intelligence tool.
+
+## Cursusstructuur
+
+We beginnen met de basisprincipes van gegevensorganisatie in Excel en bouwen geleidelijk op naar complexere concepten:
+
+1. Introductie tot Tabellen en Gegevensorganisatie met Excel
+2. Overgang naar Relationele Databanken
+3. Ontwerp en Implementatie van een Relationele Databank
+4. Bevragen en Analyseren van een Relationele Databank
+5. Big Data en Datawarehousing
+6. Project en Toepassingen
 
 ## Kernconcepten
 
 Tijdens deze cursus zullen we de volgende kernconcepten behandelen:
 
-- Basisprincipes van programmeren (variabelen, functies, lussen, condities)
-- Algoritmen
-- Datastructuren (lijsten, dictionaries, etc.)
-- Object-georiënteerd programmeren
-- Bestandsverwerking en gegevensinvoer/-uitvoer
-- Algoritmische technieken en efficiëntie
-- Numerieke methoden voor wiskundige problemen
-- Gebruik van softwarebibliotheken
+- Tabellen, rijen, kolommen, en gegevenstypen
+- Relationele databanken en DBMS
+- SQL voor gegevensdefinitie-, manipulatie- en bevraging
+- Datamodellering en normalisatie
+- Big data-kenmerken en datawarehousing
+- Data-analyse- en visualisatie
 
-We zullen deze concepten toepassen op concrete probleemstellingen, waarbij we kritisch leren kiezen voor geschikte oplossingsmethodes en de efficiëntie en duurzaamheid van onze oplossingen evalueren.
+We zullen deze concepten toepassen op praktische probleemstellingen, waarbij we leren hoe we efficiënte en schaalbare oplossingen kunnen ontwerpen voor gegevensbeheer en -analyse.
 
-Laten we beginnen met een eenvoudig voorbeeld:
+Hier is alvast een eenvoudig voorbeeld van een SQL-query:
 
-```python
-def greet(name):
-    return f"Hallo, {name}! Welkom bij Informaticawetenschappen."
-
-print(greet("student"))
+```sql
+SELECT naam, leeftijd
+FROM studenten
+WHERE studierichting = 'Bedrijfswetenschappen'
+ORDER BY leeftijd DESC;
 ```
+
+Deze query selecteert de naam en leeftijd van de leerlingen bedrijfswetenschappen, gesorteerd op leeftijd van oud naar jong. Gedurende de cursus zul je leren hoe je zulke query's kunt schrijven en begrijpen, en hoe je ze kunt gebruiken om waardevolle inzichten uit je gegevens te halen.
